@@ -1,6 +1,8 @@
+//program that implements Balanced paranthesis
 #include<bits/stdc++.h>
-#include<stack>
 using namespace std;
+
+//check whether paranthesis are balanced or not
 bool parenthesis(string str)
 {
      stack < char > s1;
@@ -18,6 +20,8 @@ bool parenthesis(string str)
      }
      return s1.empty() ? true : false;
 }
+
+//main function 
 int main()
 {
      int t;
